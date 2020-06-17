@@ -102,8 +102,6 @@ bool IsWhitelistedFlexOp(const std::string& tensorflow_op_name) {
           "DeleteSessionTensor",
           "DepthToSpace",
           "DepthwiseConv2dNative",
-          "DepthwiseConv2dNativeBackpropInput",
-          "DepthwiseConv2dNativeBackpropFilter",
           "Dequantize",
           "DestroyTemporaryVariable",
           "Div",
